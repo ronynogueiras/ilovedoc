@@ -1,0 +1,180 @@
+[26-May-2016 14:07:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'' in /home/ubuntu/workspace/script/cadastrando.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrando.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrando.php on line 23
+[26-May-2016 14:12:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'' in /home/ubuntu/workspace/script/cadastrando.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrando.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrando.php on line 23
+[26-May-2016 16:39:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 7
+[26-May-2016 16:39:37 UTC] PHP Stack trace:
+[26-May-2016 16:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[26-May-2016 17:00:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 7
+[26-May-2016 17:00:10 UTC] PHP Stack trace:
+[26-May-2016 17:00:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[26-May-2016 18:20:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 13
+[26-May-2016 18:20:15 UTC] PHP Stack trace:
+[26-May-2016 18:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:22:30 UTC] PHP Warning:  require(bancoDados.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:22:30 UTC] PHP Stack trace:
+[26-May-2016 18:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:22:30 UTC] PHP Fatal error:  require(): Failed opening required 'bancoDados.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:22:30 UTC] PHP Stack trace:
+[26-May-2016 18:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:23:33 UTC] PHP Warning:  require(script/bancoDados.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:23:33 UTC] PHP Stack trace:
+[26-May-2016 18:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:23:33 UTC] PHP Fatal error:  require(): Failed opening required 'script/bancoDados.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:23:33 UTC] PHP Stack trace:
+[26-May-2016 18:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:24:59 UTC] PHP Warning:  require(script/bancoDados.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:24:59 UTC] PHP Stack trace:
+[26-May-2016 18:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:24:59 UTC] PHP Fatal error:  require(): Failed opening required 'script/bancoDados.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pagina/minhaConta.php on line 10
+[26-May-2016 18:24:59 UTC] PHP Stack trace:
+[26-May-2016 18:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 18:25:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'us_nome' in 'where clause'' in /home/ubuntu/workspace/pagina/minhaConta.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/pagina/minhaConta.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/pagina/minhaConta.php on line 19
+[26-May-2016 18:27:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'us_nome' in 'where clause'' in /home/ubuntu/workspace/pagina/minhaConta.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/pagina/minhaConta.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/pagina/minhaConta.php on line 19
+[26-May-2016 18:30:30 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/pagina/minhaConta.php on line 27
+[26-May-2016 18:30:30 UTC] PHP Stack trace:
+[26-May-2016 18:30:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[26-May-2016 19:11:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 7
+[26-May-2016 19:11:54 UTC] PHP Stack trace:
+[26-May-2016 19:11:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[26-May-2016 19:55:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = ''' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[26-May-2016 20:33:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = 'Teste'' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[26-May-2016 23:52:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucasvinicios-fs@hotmail.com''' at line 1' in /home/ubuntu/workspace/script/redefinindo.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/script/redefinindo.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/redefinindo.php on line 13
+[27-May-2016 00:11:57 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 13
+[27-May-2016 00:11:57 UTC] PHP Stack trace:
+[27-May-2016 00:11:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[27-May-2016 00:13:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/script/redefinindo.php on line 13
+[27-May-2016 00:13:41 UTC] PHP Stack trace:
+[27-May-2016 00:13:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[27-May-2016 00:13:41 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/script/redefinindo.php:13
+[27-May-2016 14:07:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = 'Teste'' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[27-May-2016 14:18:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[27-May-2016 14:25:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = 'Teste'' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[27-May-2016 14:27:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = 'Teste'' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[27-May-2016 14:39:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' pr_nome = 'Teste'' at line 1' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 30
+[27-May-2016 14:43:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pr_usuario' cannot be null' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(46): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 46
+[27-May-2016 14:47:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pr_usuario' cannot be null' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 45
+[27-May-2016 14:51:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pr_usuario' cannot be null' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 45
+[27-May-2016 15:26:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/script/cadastrandoProjeto.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/script/cadastrandoProjeto.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 48
+[27-May-2016 15:29:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/script/cadastrandoProjeto.php on line 60
+[27-May-2016 16:40:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/pagina/minhaConta.php on line 131
+[27-May-2016 16:41:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 18
+[27-May-2016 16:41:17 UTC] PHP Stack trace:
+[27-May-2016 16:41:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 16:41:42 UTC] PHP Warning:  require(bancoDados.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pagina/minhaConta.php on line 15
+[27-May-2016 16:41:42 UTC] PHP Stack trace:
+[27-May-2016 16:41:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 16:41:42 UTC] PHP Fatal error:  require(): Failed opening required 'bancoDados.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pagina/minhaConta.php on line 15
+[27-May-2016 16:41:42 UTC] PHP Stack trace:
+[27-May-2016 16:41:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:40:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:40:52 UTC] PHP Stack trace:
+[27-May-2016 19:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:41:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:41:13 UTC] PHP Stack trace:
+[27-May-2016 19:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:44:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:44:03 UTC] PHP Stack trace:
+[27-May-2016 19:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:44:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:44:44 UTC] PHP Stack trace:
+[27-May-2016 19:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:46:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:46:52 UTC] PHP Stack trace:
+[27-May-2016 19:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:47:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/pagina/minhaConta.php on line 51
+[27-May-2016 19:47:29 UTC] PHP Stack trace:
+[27-May-2016 19:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/pagina/minhaConta.php:0
+[27-May-2016 19:58:51 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/ubuntu/workspace/pagina/minhaConta.php on line 56
+[27-May-2016 22:47:07 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/pagina/minhaConta.php on line 35
+[27-May-2016 22:47:10 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/pagina/minhaConta.php on line 35
+[28-May-2016 16:27:31 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/script/redefinindo.php on line 12
+[28-May-2016 16:27:31 UTC] PHP Stack trace:
+[28-May-2016 16:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 16:27:31 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/script/redefinindo.php:12
+[28-May-2016 16:28:54 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/script/redefinindo.php on line 12
+[28-May-2016 16:28:54 UTC] PHP Stack trace:
+[28-May-2016 16:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 16:28:54 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/script/redefinindo.php:12
+[28-May-2016 16:38:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucasvinicios-fs@hotmail.com''' at line 1' in /home/ubuntu/workspace/script/redefinindo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/script/redefinindo.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/script/redefinindo.php on line 14
+[28-May-2016 16:39:26 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetch_array() in /home/ubuntu/workspace/script/redefinindo.php on line 20
+[28-May-2016 16:39:26 UTC] PHP Stack trace:
+[28-May-2016 16:39:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 17:03:41 UTC] PHP Fatal error:  Call to a member function fetchObject() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 19
+[28-May-2016 17:03:41 UTC] PHP Stack trace:
+[28-May-2016 17:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 17:03:52 UTC] PHP Fatal error:  Call to a member function fetchObject() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 19
+[28-May-2016 17:03:52 UTC] PHP Stack trace:
+[28-May-2016 17:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 17:03:59 UTC] PHP Fatal error:  Call to a member function fetchObject() on a non-object in /home/ubuntu/workspace/script/redefinindo.php on line 19
+[28-May-2016 17:03:59 UTC] PHP Stack trace:
+[28-May-2016 17:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/redefinindo.php:0
+[28-May-2016 23:56:48 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/script/deletandoProjeto.php on line 17
+[28-May-2016 23:56:48 UTC] PHP Stack trace:
+[28-May-2016 23:56:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/script/deletandoProjeto.php:0
