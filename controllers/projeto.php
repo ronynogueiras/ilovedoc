@@ -113,3 +113,30 @@ function apagar($id){
     }
     echo json_encode($resposta);
 }
+
+
+/**
+* Método responsável por compartilhar Projeto com outros usuários
+* @author Pedro Victor
+* @param $id integer - identificador do projeto
+* @version 1.0
+* @return string JSON
+*/
+function compartilhar($id){
+    if($_SESSION['_id']){
+    $pessoa           = $_POST['pessoa'];
+    if(is_numeric($id)){
+        $query      = query("INSERT * INTO integrantes_projeto WHERE ip_pessoa=? AND ip_projetoID=?", array($id,$_SESSION['_id']));
+        if($query){
+                $resposta   = getResultJSON("success","Projeto excluído com sucesso",".");
+            }else{
+                $resposta   = getResultJSON("error","Erro ao excluir o projeto, entre em contato com a equipe de suporte.");
+            }
+        }else{
+            $resposta   = getResultJSON("error","Identificador do projeto não é válido");
+        }
+    }else{
+        $resposta   = getResultJSON("error","Autenticação inválida, faça login novamente",site_url('?controller=usuario&page=entrar'));
+    }
+    echo json_encode($resposta);
+}
