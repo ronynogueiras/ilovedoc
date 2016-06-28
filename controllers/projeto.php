@@ -115,7 +115,7 @@ function apagar($id){
 }
 
 
-/**
+/*
 <<<<<<< HEAD
 * Método responsável por compartilhar Projeto com outros usuários
 * @author Pedro Victor
@@ -123,14 +123,14 @@ function apagar($id){
 * @version 1.0
 * @return string JSON
 */
-function compartilhar($id){
+/*function compartilhar($id){
     if($_SESSION['_id']){
     $pessoa           = $_POST['pessoa'];
     if(is_numeric($id)){
         $query      = query("INSERT * INTO integrantes_projeto WHERE ip_pessoa=? AND ip_projetoID=?", array($id,$_SESSION['_id']));
-        if($query){
-=======
-* /*Método responsável por realizar o compartilhamento de determinado projeto com alguma(s) pessoa(s).
+        if($query){*/
+
+/*Método responsável por realizar o compartilhamento de determinado projeto com alguma(s) pessoa(s).
 * @author Pedro Victor
 * @version 1.0
 * @param $nome String - Nome do projeto
@@ -165,8 +165,3 @@ function compartilhar($id){
     echo json_encode($resposta);
 <<<<<<< HEAD
 }
-=======
-         
-
-}*/
-
