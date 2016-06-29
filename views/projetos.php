@@ -13,7 +13,8 @@
             echo '<ul>';
             $html        = '';
             foreach($projetos as $projeto){
-                echo '<li><a href="'.site_url('?controller=projeto&page=apagar&id='.$projeto->pr_id).'" class="request"><img src="'.base_url('static/img/Delete-48.png').'" width="24" height="24"/></a><a href="'.site_url('?controller=projeto&page=compartilhamento&id='.$projeto->pr_id).'" class="request"><img src="'.base_url('static/img/addPessoa.png').'" width="24" height="24"/></a> ';
+                echo '<li><a href="'.site_url('?controller=projeto&page=apagar&id='.$projeto->pr_id).'" class="request"><img src="'.base_url('static/img/Delete-48.png').'" width="24" height="24"/></a>
+                <a href="'.site_url('?controller=projeto&page=compartilhamento&id='.$projeto->pr_id).'"><img src="'.base_url('static/img/addPessoa.png').'" width="24" height="24"/></a> ';
                 echo '<a href="'.site_url('?controller=projeto&page=projeto&id='.$projeto->pr_id).'">'.$projeto->pr_nome.'</a></br>';
                 echo '<span>'.$projeto->pr_descricao.'</span>';
                 echo '</li>';

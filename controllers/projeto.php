@@ -124,10 +124,10 @@ function apagar($id){
 */
 function compartilhar($id){
     if($_SESSION['_id']){
-    $pessoa = $_POST['ip_pessoa'];
-    $id = $_POST['id'];
+    $pessoa =   $_POST['pessoa'];
+    $id =       $_POST['id'];
     if(is_numeric($id)){
-        $query      = query("INSERT * INTO integrantes_projeto WHERE ip_pessoa=? AND ip_projetoID=?", array($id,$_SESSION['_id']));
+        $query      = query("INSERT INTO integrantes_projeto (ip_pessoa,ip_projetoID) VALUES (?,?)",array($pessoa,$id));
         if($query){
             $resposta   = getResultJSON("success","Projeto compartilhado com sucesso",".");
             }else{
