@@ -116,45 +116,22 @@ function apagar($id){
 
 
 /*
-<<<<<<< HEAD
 * Método responsável por compartilhar Projeto com outros usuários
 * @author Pedro Victor
 * @param $id integer - identificador do projeto
 * @version 1.0
 * @return string JSON
 */
-/*function compartilhar($id){
+function compartilhar($id){
     if($_SESSION['_id']){
-    $pessoa           = $_POST['pessoa'];
+    $pessoa = $_POST['ip_pessoa'];
+    $id = $_POST['id'];
     if(is_numeric($id)){
         $query      = query("INSERT * INTO integrantes_projeto WHERE ip_pessoa=? AND ip_projetoID=?", array($id,$_SESSION['_id']));
-        if($query){*/
-
-/*Método responsável por realizar o compartilhamento de determinado projeto com alguma(s) pessoa(s).
-* @author Pedro Victor
-* @version 1.0
-* @param $nome String - Nome do projeto
-* @param $email String - E-mail da pessoa a ser adicionada ao projeto
-* @return array com a resposta padronizada
-*/
-
-// FAZENDO
-/*function compartilhar($id) {
-    if($_SESSION['_id']){
-        $nome = $_POST['nome'];
-        
-        if(is_numeric($id)){
-            $query  = query("SELECT * FROM projetos WHERE pr_nome=?",array($nome));
-            if(count($query)==0){
-                if($id==0)
-                    $query  = query("SELECT * FROM usuarios WHERE us_email=? AND us_situacao='Ativo'",array($email),false);
-            
-            
-            /*if($query){
->>>>>>> 6530dc65ba42ad9d32c37e63daed8e81a9f5e42b
-                $resposta   = getResultJSON("success","Projeto excluído com sucesso",".");
+        if($query){
+            $resposta   = getResultJSON("success","Projeto compartilhado com sucesso",".");
             }else{
-                $resposta   = getResultJSON("error","Erro ao excluir o projeto, entre em contato com a equipe de suporte.");
+                $resposta   = getResultJSON("error","Erro ao compartilhar o projeto, entre em contato com a equipe de suporte.");
             }
         }else{
             $resposta   = getResultJSON("error","Identificador do projeto não é válido");
@@ -163,5 +140,14 @@ function apagar($id){
         $resposta   = getResultJSON("error","Autenticação inválida, faça login novamente",site_url('?controller=usuario&page=entrar'));
     }
     echo json_encode($resposta);
-<<<<<<< HEAD
+}
+
+function compartilhamento(){
+    if(isset($_SESSION['_id'])){
+        getView('template/header');
+        getView('adicionarIntegrantes');
+        getView('template/footer');
+    }else{
+        redirect(site_url('?controller=usuario&page=entrar'));
+    }
 }
