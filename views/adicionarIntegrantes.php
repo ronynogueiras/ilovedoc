@@ -9,6 +9,7 @@
         <div id="p_scents"
             <p>
                 <form action="<?php echo base_url('?controller=projeto&page=compartilhar');?>" method="post" class="request">
+                    <input type="hidden" name="id" value="<?php echo $id?>"/>
                 <label for="pessoas"><input type="text" id="pessoa" size="20" name="pessoa" value="" placeholder="E-mail do novo integrante" /></label>
             </p>
         </div>
@@ -21,7 +22,7 @@
             var i = $('#p_scents p').size() + 1;
                 
             $('#addScnt').live('click', function() {
-                $('<p><label for="pessoas"><input type="text" id="pessoa" size="20" name="pessoa_' + i +'" value="" placeholder="E-mail do novo integrante" /></label> <a href="#" id="remScnt"><img src="http://1.bp.blogspot.com/-HAsZtwhQqmo/UijGDBPmvJI/AAAAAAAAisw/Szet6PZtDeQ/s1600/del+erase+sil.png" width="24" height="24"/></a></p>').appendTo(scntDiv);
+                $('<p><label for="pessoas"><input type="text" id="pessoa" size="20" name="pessoa" value="" placeholder="E-mail do novo integrante" /></label> <a href="#" id="remScnt"><img src="http://1.bp.blogspot.com/-HAsZtwhQqmo/UijGDBPmvJI/AAAAAAAAisw/Szet6PZtDeQ/s1600/del+erase+sil.png" width="24" height="24"/></a></p>').appendTo(scntDiv);
                 i++;
                 return false;
             });

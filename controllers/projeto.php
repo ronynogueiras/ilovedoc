@@ -19,6 +19,7 @@ function projetos()
     }
 }
 
+
 /**
 * Método responsável por listar os dados de um projeto especifíco
 * @author Raphael Ferreira
@@ -36,6 +37,8 @@ function projeto($id)
         redirect(site_url('?controller=usuario&page=entrar'));
     }
 }
+
+
 /**
 * Método responsável por exibir a view para o cadastro de um novo projeto 
 * @author Raphael Ferreira
@@ -50,6 +53,8 @@ function novo(){
         redirect(site_url('?controller=usuario&page=entrar'));
     }
 }
+
+
 /**
 * Método responsável por salvar um projeto que está sendo criado ou que foi editado
 * @author Gabriel Barbosa
@@ -88,6 +93,7 @@ function salvar(){
     echo json_encode($resposta);
 }
 
+
 /**
 * Método responsável por atualizar a situação de um projeto para 'Apagado'
 * @author Gabriel Barbosa
@@ -119,10 +125,11 @@ function apagar($id){
 * Método responsável por compartilhar Projeto com outros usuários
 * @author Pedro Victor
 * @param $id integer - identificador do projeto
+* @param $pessoa varchar - email do usuário que se deseja compartilhar o projeto
 * @version 1.0
 * @return string JSON
 */
-function compartilhar($id){
+function compartilhar(){
     if($_SESSION['_id']){
     $pessoa =   $_POST['pessoa'];
     $id =       $_POST['id'];
@@ -142,12 +149,37 @@ function compartilhar($id){
     echo json_encode($resposta);
 }
 
-function compartilhamento(){
+
+/*
+* Método responsável por mostrar a tela em que os usuários poderão compartilhar os projetos
+* @author Pedro Victor
+* @param $id integer - identificador do projeto
+* @version 1.0
+* @return string JSON
+*/
+function compartilhamento($id){
     if(isset($_SESSION['_id'])){
         getView('template/header');
-        getView('adicionarIntegrantes');
+        getView('adicionarIntegrantes',array("id"=>$id));
         getView('template/footer');
     }else{
         redirect(site_url('?controller=usuario&page=entrar'));
     }
 }
+
+
+/*
+* Método responsável por listar os projetos compartilhados em "Meus Projetos"
+* @author Pedro Victor
+* @param $id integer - identificador do projeto
+* @version 1.0
+* @return string JSON
+*/
+/*
+function mostrar (){
+    //Lista todas as colunas das duas tabelas
+    SELECT * FROM projetos LEFT JOIN integrantes_projeto ON projetos.pr_id = integrantes_projeto.ip_projetoID
+    
+    SELECT * FROM usuarios LEFT JOIN integrantes_projeto ON usuarios.us_email = integrantes_projeto.ip_pessoa
+}
+*/
