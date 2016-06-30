@@ -113,3 +113,19 @@ function apagar($id){
     }
     echo json_encode($resposta);
 }
+
+/**
+* Método responsável por exibir a view relacionado a modelos de documentação de um projeto
+* @author João Henrique
+* @version 1.0
+*/
+function modelosDocumentacao(){
+    if($_SESSION['_id']){
+        getView('template/header');
+        getView('modelosDocumentacao');
+        getView('template/footer');
+    }else{
+        redirect(site_url('?controller=usuario&page=entrar')); 
+    }
+}
+

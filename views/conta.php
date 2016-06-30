@@ -2,6 +2,7 @@
     <ul>
         <li><a href="<?php echo site_url('?controller=projeto&page=novo')?>">Criar Projeto</a></li>
         <li><a href="<?php echo site_url('?controller=projeto&page=projetos')?>">Meus Projetos</a></li>
+        <li><a href="<?php echo site_url('?controller=projeto&page=modelosDocumentacao')?>">Modelos de Documentação</a></li>
         <li><a href="<?php echo site_url('?controller=usuario&page=sair');?>" class="request">Sair</a></li>
     </ul>
 </div>
